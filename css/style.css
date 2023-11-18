@@ -1,0 +1,196 @@
+/* -----FONTS--------- */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* global */
+*,
+*::before,
+*::after {
+  /* */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #474646;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+html {
+  height: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* --------HEADER----------- */
+
+.main-header {
+  min-height: 40px;
+  width: 400px;
+  background-color: #313131;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: #ffffff;
+
+}
+
+
+/* --------/HEADER---------- */
+/* -------ABOUT------------- */
+
+
+.about-me {
+  background-color: #313131;
+  width: 1000px;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  width: 500px;
+
+}
+
+.about-img {
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* -------/ABOUT------------ */
+
+/* ---------SKILLS----------- */
+
+.skills {
+  background-color: #313131;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 30px;
+  min-height: 120px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.skills-title {
+  margin: 0 auto;
+}
+
+.skills-list {
+  display: flex;
+  list-style-type: none;
+  margin-left: 29px;
+}
+
+/* ---------/SKILLS---------- */
+
+/* ---------PROJECT----------- */
+.project {
+  background-color: #313131;
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 30px;
+  min-height: 270px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  margin: 0 auto;
+}
+
+.project-list {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.project-item {
+  margin-top: 20px;
+}
+
+.project-link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #000000;
+}
+
+.project-img {
+  border-radius: 15px;
+  transition: 0.7s;
+}
+
+.project-img:hover {
+  transform: scale(1.05);
+}
+
+.project-name {
+  margin-top: 10px;
+}
+/* ---------/PROJECT----------- */
+
+/* ---------FOOTER----------- */
+.main-footer {
+  background-color: #313131;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 30px;
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.social-item {
+}
+
+.social-svg {
+  border-radius: 8px;
+}
+/* ---------/FO0TER----------- */
